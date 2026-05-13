@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 5 - JavaScript</title>
+</head>
+<body>
+
+    <h1>PRÁCTICA 5 - JAVASCRIPT</h1>
+
+    <h2>Preguntas Teóricas</h2>
+
+    <h3>1) Formas de conectar HTML con JavaScript</h3>
+
+    <p>
+        Existen dos formas principales de conectar JavaScript con HTML:
+    </p>
+
+    <h4>a) JavaScript Interno</h4>
+    <p>
+        Se escribe el código JavaScript dentro de la etiqueta
+        &lt;script&gt; en el mismo archivo HTML.
+    </p>
+
+<pre>
+&lt;script&gt;
+    alert("Hola Mundo");
+&lt;/script&gt;
+</pre>
+
+    <h4>b) JavaScript Externo</h4>
+    <p>
+        Se escribe el código JavaScript en un archivo separado con extensión
+        .js y luego se enlaza al HTML.
+    </p>
+
+<pre>
+&lt;script src="script.js"&gt;&lt;/script&gt;
+</pre>
+
+    <p>
+        Actualmente se recomienda utilizar JavaScript externo porque permite
+        organizar mejor el código, reutilizar archivos y facilitar el mantenimiento.
+    </p>
+
+    <hr>
+
+    <h3>2) ¿Cómo visualizar resultados en la consola?</h3>
+
+    <p>
+        Paso 1: Abrir el navegador.
+    </p>
+
+    <p>
+        Paso 2: Presionar F12 o clic derecho → Inspeccionar.
+    </p>
+
+    <p>
+        Paso 3: Abrir la pestaña “Console”.
+    </p>
+
+    <p>
+        Paso 4: Utilizar console.log() para mostrar resultados.
+    </p>
+
+<pre>
+console.log("Hola desde JavaScript");
+</pre>
+
+    <p>
+        La consola permite visualizar mensajes, resultados de operaciones
+        y errores del programa.
+    </p>
+
+    <hr>
+
+    <h3>3) Variables en JavaScript</h3>
+
+    <p>
+        Las variables permiten almacenar información.
+    </p>
+
+    <h4>var</h4>
+
+<pre>
+var nombre = "Juan";
+</pre>
+
+    <p>
+        Tiene alcance global o de función. Actualmente no se recomienda mucho
+        porque puede causar errores.
+    </p>
+
+    <h4>let</h4>
+
+<pre>
+let edad = 20;
+</pre>
+
+    <p>
+        Permite modificar el valor y tiene alcance por bloque.
+    </p>
+
+    <h4>const</h4>
+
+<pre>
+const pi = 3.1416;
+</pre>
+
+    <p>
+        No permite cambiar el valor después de declararlo.
+    </p>
+
+    <p>
+        Actualmente se recomienda usar let y const porque son más seguras y
+        organizadas.
+    </p>
+
+    <hr>
+
+    <h2>Ejercicios</h2>
+
+    <p>
+        Abrir la consola del navegador para visualizar los resultados de los ejercicios.
+    </p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
